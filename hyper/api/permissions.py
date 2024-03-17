@@ -1,6 +1,4 @@
-# from django.shortcuts import get_object_or_404
 from rest_framework import permissions
-from django.contrib.auth.models import Group, User
 
 class IsGeneralManager(permissions.BasePermission):
     def has_permission(self, request, view):
@@ -12,7 +10,7 @@ class IsDoctor(permissions.BasePermission):
 
 class IsAssistant(permissions.BasePermission):
     def has_permission(self, request, view):
-        return request.user.groups.filter(name='Assistant').exists() or request.user.groups.filter(name='Doctor').exists() or request.user.groups.filter(name='General Manager').exists()
+        return request.user.groups.filter(name='Assistant').exists() or request.user.groups.filter(name='General Manager').exists()
     
 
 ## Testing password hashing

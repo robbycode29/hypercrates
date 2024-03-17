@@ -49,5 +49,22 @@
             "name": "Assistant",
             "permissions": []
         }
+    },
+    {
+        "model": "api.doctor",
+        "pk": 1,
+        "fields": {
+            "name": "Helen Smith",
+            "specialization": "Cardiology",
+            "user": 2
+        }
+    },
+    {
+        "model": "api.assistant",
+        "pk": 1,
+        "fields": {
+            "name": "Joshua Rodriguez",
+            "user": 3
+        }
     }
 ]

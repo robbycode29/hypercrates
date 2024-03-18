@@ -5,7 +5,7 @@ An ACL rudimentary demo for medical systems management
 
 Fork and then clone this repo on a machine where you have docker and docker-compose installed,
 then use the following commands:
-    - `$ cd hypercrates`
+    - `$ cd hypercrates/hyper`
     - `$ docker-compose up`
 
 After installation you will need to apply migrations in order to set up the db:

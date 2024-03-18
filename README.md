@@ -47,7 +47,7 @@ The API has a test suite implemented containing integration and unit tests. You 
 
 # Vulnerabilities
 
-Certain vulnerabilities may arise in production, for example:
+Certain vulnerabilities may arise in production, for example:                                                           
     - Denial of service attacks (DoS) - server runs on free tier Heroku plan. A proper distributed cluster setup on Azure or GKE would mitigate the effects.
     - Insecure dependencies - Lack of control over dependencies.
     - Exposed private keys - production release may have exposed private keys and Django is set to dev.

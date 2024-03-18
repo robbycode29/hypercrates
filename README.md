@@ -40,7 +40,7 @@ This REST API app allows for basic hospital management tasks to be done in an AC
 ![Background (1)](https://github.com/robbycode29/hypercrates/assets/91128928/ef8e1403-03f4-43c4-9ce3-ff20bc188d50)
 
 
-# Tesing 
+# Testing 
 
 The API has a test suite implemented containing integration and unit tests. You can check tests by doing:
    - `$ docker-compose exec web python manage.py test`

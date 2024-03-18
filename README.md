@@ -34,7 +34,8 @@ This REST API app allows for basic hospital management tasks to be done in an AC
     - `"username": "assistant_user", "password": "pass3".`
 - Use the token to access any other endpoints you have permission to use.
 - Here is a list with usable endpoints:
-      ![image](https://github.com/robbycode29/hypercrates/assets/91128928/83199978-23b8-4b9b-a9f5-d66a993f3d95)
+                                                                                  
+![Background](https://github.com/robbycode29/hypercrates/assets/91128928/d069f735-d209-4887-9c27-bab987926cee)      
 
 # Tesing 
 

@@ -35,7 +35,8 @@ This REST API app allows for basic hospital management tasks to be done in an AC
 - Use the token to access any other endpoints you have permission to use.
 - Here is a list with usable endpoints:
                                                                                   
-![Background](https://github.com/robbycode29/hypercrates/assets/91128928/d069f735-d209-4887-9c27-bab987926cee)      
+![Background (1)](https://github.com/robbycode29/hypercrates/assets/91128928/ef8e1403-03f4-43c4-9ce3-ff20bc188d50)
+
 
 # Tesing 
 

@@ -57,6 +57,8 @@ class PatientAssistantView(viewsets.ModelViewSet):
         assistant_ids = request.data.get('assistants')
         if isinstance(assistant_ids, str):
             assistant_ids = json.loads(assistant_ids)
+        if not isinstance(assistant_ids, list):
+            assistant_ids = [assistant_ids]
         if assistant_ids is not None:
             try:
                 assistants = Assistant.objects.filter(id__in=assistant_ids)

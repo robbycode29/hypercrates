@@ -28,6 +28,8 @@ This REST API app allows for basic hospital management tasks to be done in an AC
 
 ## 🔖 How to use the Hypercrates
 
+# OAuth 2.0
+
 - Use /api/login/ to log into one of these users to get a Token:
     - `"username": "gm_user", "password": "pass1"`.
     - `"username": "doctor_user", "password": "pass2".`
